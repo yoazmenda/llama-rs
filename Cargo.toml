@@ -4,6 +4,8 @@ members = [
     "ggml",
     "llama-rs",
     "llama-cli",
+    "llama-wasm",
+    "llama-common",
     "generate-ggml-bindings"
 ]
 resolver = "2"

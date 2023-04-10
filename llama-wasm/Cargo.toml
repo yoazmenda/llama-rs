@@ -1,0 +1,11 @@
+[package]
+name = "llama-wasm"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+llama-common = { path = "../llama-common" }
+wasm-bindgen = "0.2"
+
+[lib]
+crate-type = ["cdylib"]
