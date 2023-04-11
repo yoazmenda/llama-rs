@@ -5,7 +5,6 @@ members = [
     "llama-rs",
     "llama-cli",
     "generate-ggml-bindings",
-    "llama-webserver",
     "llama-wasm"
 ]
 resolver = "2"

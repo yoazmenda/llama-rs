@@ -1,6 +1,9 @@
 use wasm_bindgen::prelude::*;
 
+// Placeholder function
 #[wasm_bindgen]
-pub fn test_wasm() -> String {
-    "Hello from Rust and WebAssembly!".to_string()
+pub fn hello() -> String {
+    "hi there".to_string()
 }
+
+
