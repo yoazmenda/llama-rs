@@ -7,8 +7,6 @@ edition = "2021"
 
 [dependencies]
 llama-rs = { path = "../llama-rs", features = ["convert"] }
-llama-common = { path = "../llama-common" }
-
 
 rand = { workspace = true }
 
